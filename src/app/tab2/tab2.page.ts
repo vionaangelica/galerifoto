@@ -12,7 +12,7 @@ export class Tab2Page {
 
   constructor() {
     this.question = Math.floor(Math.random() * 10) + 1;
-    alert(this.question)
+    // alert(this.question)
   }
 
   ngOnInit(){
